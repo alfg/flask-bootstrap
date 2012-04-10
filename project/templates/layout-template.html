@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Includes layout/header.html into template -->
+{% include "layout/header.html" %}
+
+<!-- Sets active_page variable for active tab -->
+{% set active_page = "index" %}
+
+  <body>
+
+<div class="container">
+    <!-- Includes layout/nav.html into template -->
+    {% include "layout/nav.html" %}
+
+    <div class="container">
+
+        <div class="span2">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Utilities</li>
+              <li class="active"><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+
+        <div class="span8">
+        <!-- The Content -->
+        Hello World!
+
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Includes layout/footer.html into template -->
+    {% include "layout/footer.html" %}
+
+  </body>
+</html>
