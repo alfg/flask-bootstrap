@@ -11,9 +11,13 @@ Flask-Bootstrap is a simple template I use when creating small webapps using the
 Customize and configure your project by replacing `project` in several files including:
 
 runserver.py
+
 wsgi.py
+
 models.py
+
 project/
+
 project/views.py
 
 ## Run ##
